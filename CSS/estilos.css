@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+        
+}
+
+
+#header {
+    background-color: rgb(202, 156, 156);
+    padding: 10px;
+    margin-bottom: 25px;
+    text-align: center;
+    
+}
+#header .logo img {
+    width: 170px;
+    height: 150px;
+    margin-bottom: 50px;
+    
+}
+#header .menu ul li {
+    background-color: rgb(53, 49, 49);
+    padding: 8px 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+    display: inline-block;
+    min-width: 170px;
+    text-align: center;
+    
+        
+}
+#header .menu ul li a {
+    color:white;
+    text-decoration: none;
+
+
+}
+#header .menu ul li a:hover {
+    
+    color: tomato;
+}
+#header .menu ul{
+    display: block;
+}
+#Anuncio img {
+    width: 1350px;
+}
+#Anuncio .pagos {
+    margin-top: -23px;    
+    text-align: center;
+    background-color:#e0d7d6;
+}
+#Anuncio {
+    text-align: center;
+}
+#Anuncio .Titulo {
+    background-color: bisque;
+    color: red;
+    text-align: center;
+    
+    
+    
+}
+#Anuncio p{
+    background-color: bisque;
+    padding: 30px;
+    text-align: center;
+   font-size: 20px;
+   margin-top: -25px; 
+}
+/* footer */
+#dato {
+    background-color: burlywood;
+    padding: 10px;
+    
+    
+
+
+}
+#dato .pie h2 {
+    margin-left: 25px;
+    color: white;
+    
+}
+#dato .hola {
+
+    color: white;
+    margin-left: 30px;
+    margin-top: -30px;
+    
+}
+#dato .pie img { /* imagen */
+    height: 60px;
+    margin-left: 1200px;
+    margin-top: -30px;
+}
+
+#dato .pie .s2 {
+    margin-left: 300px ;
+    margin-top: -30px;
+}
+#dato .hola .su2 {
+    margin-left: 275px ;
+    margin-top: -35px;
+}
+#dato .pie .se {
+    margin-left: 900px ;
+    margin-top: -35px;
+    }
+#dato .copi {
+    margin-left: 1170px;
+    font-size: 12px;
+}
+/* CSS NOSOTROS  */
+
+#nosotros .somos h1 {
+color: orangered;
+ text-align: center;
+padding: 10px;
+margin: 50px;
+font-size: 50px;
+
+}
+#nosotros .somos p {
+padding: 10px;
+margin: 100px;
+text-align: justify;
+font-size: 20px;
+
+}
+#tablas {
+border: 5px solid black;
+padding: 50px;
+
+ 
+
+}
+/* css contacto */
+#formul {
+
+    background-color: burlywood;
+    width: 500px;;
+    margin: 100px;   
+    border: 1px solid black;
+    padding: 50px;
+    display: inline-flexbox;
+    margin-top: 0;
+}
+.opinion {
+    margin-left: 70px;
+    margin-bottom: 50px;
+    color: white;
+    font-size: 30px;   
+}
+
+/* css productos */
+.novedades {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 2px;
+    font-size: 70px;
+    color: rebeccapurple;
+    font-family: 'Gill Sans';
+}
+.acceso {
+    margin-left: 460px;
+    margin-top: 50px;
+    color: gray;
+    
+    
+}
+#produc {
+
+    margin-bottom: 50px;
+}
+
+#produc img {
+    margin-left: 12px;
+    padding: 5px;
+    height: 430px;
+    background-color: black;
+}
+#produc .cosito {
+    font-family: Georgia;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+#produc .plush {
+    margin-left: 590px;
+    margin-top: -20px;
+    font-family: Georgia;
+}
+#produc .saquito {
+    margin-left: 1000px;
+    margin-top: -25px;
+    font-family: Georgia;
+    
+}
+#tablita {
+ margin-top: 100px;
+    margin-bottom: 50px;
+ text-align: center;
+ margin-left: 250px;
+ width: 900px;
+ height: 300px;
+ font-size: 30px;
+
+    
+       
+
+}
+.titulo  {
+    margin-left: 550px;
+    margin-bottom: -80px;
+    margin-top: 100px;
+    
+}
+
+    
+
+.boxPositionFix img {
+    
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    position: fixed;
+    bottom: 120px;
+    right: 15px;
+}

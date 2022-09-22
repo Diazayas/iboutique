@@ -8,34 +8,79 @@
     <link rel="stylesheet" href="./CSS/estilos.css">
     <link rel="shortcut icon" href="./IMAGENES/amor png.png" type="image/x-icon">
     <link media="handheld" type="text/css" href="/css/movil.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 </head>
 <body>
-    
+            <!-- logo y fondo  -->
     <header id="header">
         <div class="logo">
             <img src="./IMAGENES/amor png.png" alt="iboutique">
         </div>
-        <nav class="menu">
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./PAGES/productos.html">Productos</a></li>
-                <li><a href="./PAGES/promociones.html">Promociones</a></li>
-                <li><a href="./PAGES/nosotros.html">Nosotros</a></li>
-                <li><a href="./PAGES/contacto.html">Contacto</a></li>
-                
-            </ul>
-        </nav>
     </header>
-    <section id="Anuncio">
-            <div class="pagos">
-                <img src="./IMAGENES/1-slide-1661456642120-2510986802-111d2bb3df337e7711fd44f6ea62d0b71661456647-1400-1400.jpg" alt="diseño">
-            </div>
-            <h1  class="Titulo" > <em>IBOUTIQUE</em>   &copy;</h1>
-            <P> <em>Ropita de corazon silvestre inspirada en la naturaleza</em> </P>
-            <a href="./PAGES/nosotros.html">Conoce mas de Nosotros</a>
+            <!-- aplico bopstrap en menu  -->
+    
+            <nav class="navbar navbar-expand-lg bg-white    ">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./PAGES/productos.html">Productos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./PAGES/promociones.html">Talles</a>
+                      </li>
+                    
+                      <li class="nav-item">
+                        <a class="nav-link" href="./PAGES/nosotros.html">Nosotros</a>
+                      </li>
+                    
+                      <li class="nav-item">
+                        <a class="nav-link" href="./PAGES/contacto.html">Contacto</a>
+                      </li>
+                    
+                    
+                    
+                    </ul>
+                    <span class="navbar-text">
+                      <em>Ropita de corazon silvestre</em> 
+                    </span>
+                  </div>
+                </div>
+              </nav>
+                    <!-- carrousel -->
+              
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="./IMAGENES/1-slide-1661456642120-2510986802-111d2bb3df337e7711fd44f6ea62d0b71661456647-1400-1400.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./IMAGENES/1-slide-1661456809977-8391746767-36ec6e159377ea84fc45b680ad608ab91661456811-1400-1400 (2).jpg" class="d-block w-100" alt="...">
+                          </div>
+                          
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
 
-        </section>
 
+
+              
+
+            <!-- logo flotante de whatsapp -->
         <div class="boxPositionFix">
             <a href="https://wa.link/eqb62t" target="_blank" >
                 <img src="./IMAGENES/whatsapp_logo.png"  alt="whatsapp_logo"  >
@@ -43,31 +88,21 @@
             
         </div>
         
-        <footer id="dato">
-            <div class="pie">
-                <h2>Sucursal Martinez </h2> 
-                <h2 class="s2">Sucursal San Iisdro</h2>
-                    
-                    <a href="./index.html"> <img src="./IMAGENES/amor png.png" alt="iboutique"> </a>   
-                    
-                </div >
-            
-            <div class="hola">
-                <p>Hipolito Yrigoyen 1540</p>
-                <p>Telefono: 4798 0330</p>
-                <div class="su2">
-                    <p>Hipolito Yrigoyen 3090</p>
-                    <p>Telefono: 4717 5522</p>
-                </div>
-            </div>
-                <p class="copi">&copy; <em>copyright iboutique</em> </p>            
-            <div class="sucursal">
-                     
-            
-            </div>
+        <div class="container">
+            <footer class="py-3 my-4">
+              <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="./index.html" class="nav-link px-2 text-muted">Home</a></li>
+                <li class="nav-item"><a href="./PAGES/productos.html" class="nav-link px-2 text-muted">Productos</a></li>
+                <li class="nav-item"><a href="./PAGES/promociones.html" class="nav-link px-2 text-muted">Talles </a></li>
+                <li class="nav-item"><a href="./PAGES/nosotros.html" class="nav-link px-2 text-muted">Nosotros</a></li>
+                <li class="nav-item"><a href="./PAGES/contacto.html" class="nav-link px-2 text-muted">Contacto</a></li>
+              </ul>
+              <p class="text-center text-muted">&copy; 2022 Company, Inc</p>
+            </footer>
+          </div>
+                            <!-- script de bootsrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
 
-
-
-        </footer>
-</body>
+    </body>
 </html>

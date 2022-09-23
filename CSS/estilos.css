@@ -21,49 +21,7 @@
     
 }
 
-/* footer */
-#dato {
-    background-color: burlywood;
-    padding: 10px;
-    
-    
 
-
-}
-#dato .pie h2 {
-    margin-left: 25px;
-    color: white;
-    
-}
-#dato .hola {
-
-    color: white;
-    margin-left: 30px;
-    margin-top: -30px;
-    
-}
-#dato .pie img { /* imagen */
-    height: 60px;
-    margin-left: 1200px;
-    margin-top: -30px;
-}
-
-#dato .pie .s2 {
-    margin-left: 300px ;
-    margin-top: -30px;
-}
-#dato .hola .su2 {
-    margin-left: 275px ;
-    margin-top: -35px;
-}
-#dato .pie .se {
-    margin-left: 900px ;
-    margin-top: -35px;
-    }
-#dato .copi {
-    margin-left: 1170px;
-    font-size: 12px;
-}
 /* CSS NOSOTROS  */
 
 #nosotros .somos h1 {
@@ -79,7 +37,7 @@ padding: 10px;
 margin: 100px;
 text-align: justify;
 font-size: 20px;
-
+    /* talles */
 }
 #tablas {
 border: 5px solid black;
@@ -109,7 +67,7 @@ padding: 50px;
 /* css productos */
 .novedades {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 50pv;
     margin-top: 2px;
     font-size: 70px;
     color: rebeccapurple;
@@ -117,7 +75,7 @@ padding: 50px;
 }
 
 .novedades:hover{
-    background-color: aqua;
+    color: brown;
 }
 .acceso {
     margin-left: 460px;
@@ -159,6 +117,36 @@ padding: 50px;
     bottom: 120px;
     right: 15px;
 }
+
+/* prod */
+.flex-container {
+    
+    height: 100vh;
+    padding: 50px;
+    display: flex;
+    gap: 5px;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.flex-item {
+    background-color: black;
+    color: white;
+    width: 400px;
+}
+.flex-item img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #000;
+}
+
+
+
+
 
 /* footer boots */
 .bd-placeholder-img {
@@ -211,6 +199,6 @@ padding: 50px;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
 
-    /* PRODUCTOS */
+  
     
     

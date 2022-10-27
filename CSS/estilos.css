@@ -109,7 +109,7 @@ font-size: 50px;
 }
 #nosotros .somos p {
 padding: 10px;
-margin: 100px;
+margin: 5px;
 text-align: justify;
 font-size: 20px;
     /* talles */
@@ -117,7 +117,7 @@ font-size: 20px;
 
 @media (max-width: 950px){
   #nosotros .somos p{
-    font-size: 50%;
+    font-size: 70%;
     margin-top: -50px;
   }
 #nosotros .somos h1{

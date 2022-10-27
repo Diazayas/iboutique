@@ -115,6 +115,18 @@ font-size: 20px;
     /* talles */
 }
 
+@media (max-width: 950px){
+  #nosotros .somos p{
+    font-size: 50%;
+    margin-top: -50px;
+  }
+#nosotros .somos h1{
+  font-size: 120%;
+  
+}
+}
+
+
 /* css contacto */
 #formul {
   color: aliceblue;
@@ -123,7 +135,7 @@ font-size: 20px;
   text-align: center;
   margin-left: 10%;
   margin-right: 10%;
-  padding: 10px 10px -10px -10px;
+  padding: 10px 10px -5px -5px;
 }
 
 /* talllllles */
